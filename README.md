@@ -3,6 +3,8 @@ Methods of Feature Selection on Head Pose Estimation.
 Exploring various feature selection approaches for solving highly dimensional problems, this repository focuses on head pose estimation.
 Head pose estimation involves determining the pitch, yaw, and roll angles of a person's head in images or videos. This project utilizes the Mediapipe library for face mesh detection and regression models with hyperparameters tuning techniques for pose prediction.
 
+![featurepose](https://github.com/NawalShehata/FeaturePose-Estimation/assets/156523967/28b6c0c8-d054-4de1-9e56-50b39a976e95)
+
 ## Objectives
 
 1. **Exploration of Feature Selection Approaches**: Investigate various feature selection methods suitable for solving highly dimensional problems, with a specific focus on their application in head pose estimation.
@@ -24,18 +26,24 @@ Head pose estimation involves determining the pitch, yaw, and roll angles of a p
 
 2. **Feature Selection Approaches**: Explores various feature selection methods tailored for solving highly dimensional problems, optimizing for effective head pose estimation.
 
-3. **Regression Models**: Employs regression models with hyperparameter tuning techniques to predict head pose angles based on extracted facial landmarks.
+3. **Hyper-paramter Tuning**: Using Optuna for hyper-paramter tuning as it gives much faster performance over grid and random search, to optimize regression model performance.
 
-4. **Visualization**: Provides visualization functionality to display the estimated head pose on input images or videos, enhancing interpretability of the results.
+4. **Regression Models**: Employs regression models with hyperparameter tuning techniques to predict head pose angles based on extracted facial landmarks.
 
-  
+5. **Visualization**: Provides visualization functionality to display the estimated head pose on input images, enhancing interpretability of the results.
+
+ 
 ## Prerequisites
 
 Before running the project, ensure you have the following dependencies installed:
 
 - Python 3
 - OpenCV
+- Optuna
 - Mediapipe
 - Scikit-learn
+- Umap-Learn
+- Keras
 - NumPy
+- SciPy
 - Pandas
